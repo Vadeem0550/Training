@@ -2,28 +2,26 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { TestComponent } from './test/test.component';
-import { GreenComponent } from './test/green/green.component';
-import { YellowComponent } from './test/yellow/yellow.component';
-import { BrownComponent } from './test/brown/brown.component';
-import { BlueComponent } from './test/blue/blue.component';
-import { PurpleComponent } from './test/purple/purple.component';
-import { SandybrownComponent } from './test/sandybrown/sandybrown.component';
-import { GreyComponent } from './test/grey/grey.component';
-import { LilacComponent } from './test/lilac/lilac.component';
+import { PurpleComponent } from './block-color/purple/purple.component';
+import { OrangeComponent } from './block-color/orange/orange.component';
+import { SapphirComponent } from './block-color/sapphir/sapphir.component';
+import { RedComponent } from './block-color/red/red.component';
+import { DarkComponent } from './block-color/dark/dark.component';
+import {GreenComponent} from './block-color/green/green.component';
+import {BrownComponent} from './block-color/brown/brown.component';
+import {BlueComponent} from './block-color/blue/blue.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent,
-    GreenComponent,
-    YellowComponent,
-    BrownComponent,
-    BlueComponent,
     PurpleComponent,
-    SandybrownComponent,
-    GreyComponent,
-    LilacComponent
+    OrangeComponent,
+    SapphirComponent,
+    RedComponent,
+    DarkComponent,
+    GreenComponent,
+    BrownComponent,
+    BlueComponent
   ],
   imports: [
     BrowserModule
