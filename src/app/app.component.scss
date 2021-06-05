@@ -4,31 +4,44 @@
   width: 100%;
   gap: 15px;
 }
-
-.six-box {
+.two-box{
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap:15px;
+  flex: 1;
 }
-
-.five-box {
+.three-box{
   display: flex;
-  gap: 15px;
+  gap:15px;
+  flex: 2;
 }
-
-.four-box {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.three-box {
-  display: flex;
-  gap: 15px;
-}
-
-.two-box {
+.four-box{
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap:15px;
+  flex: 2;
+}
+.five-box{
+  display: flex;
+  gap:15px;
+  flex: 2;
+}
+.six-box{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  flex: 2;
+}
+
+.sunny-box{
+  flex: 2;
+}
+.sky-box{
+  flex: 2;
+}
+.rose-box{
+  flex: 2;
+}
+.mint-box{
+    flex: 2;
 }
